@@ -5,133 +5,105 @@ body, h1, h2, h3, p, ul, ol, li, a {
     box-sizing: border-box;
 }
 
-/* General body styling */
+    /* General body styling */
 body {
-    align-content: center;
-    align-items: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     color: #333;
-    background-color: #f9f9f9;
-    /* Reset some default browser styles */
-    body, h1, h2, h3, p, ul, ol, li, a {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    /* General body styling */
-    body {
-        font-family: 'Arial', sans-serif;
-        font-size: 16px;
-        line-height: 1.6;
-        color: #333;
-        background-color: #f0f8ff; /* Light blue theme */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        margin: 0;
-    }
-
-    /* Wrapper styling */
-    .wrapper {
-        max-width: 800px;
-        width: 90%;
-        background-color: #3b5982; /* White background for content */
-        border-radius: 5px;
-        box-shadow: 0 4px 6px rgb(255, 255, 255);
-        padding: 20px;
-        text-align: center;
-    }
-
-    .wrapper1 {
-        max-width: 800px;
-        width: 90%;
-        background-color: #1a5375; /* White background for content */
-        border-radius: 5px;
-        box-shadow: 0 4px 6px rgb(255, 255, 255);
-        padding: 20px;
-        text-align: center;
-    }
-
-    /* Headings */
-    h1, h2, h3 {
-        color: #2c3e50; /* Dark blue for headings */
-        margin-bottom: 15px;
-    }
-
-    /* Paragraphs */
-    p {
-        margin-bottom: 20px;
-        color: #34495e; /* Slightly darker text */
-    }
-
-
-
-    nav ul {
-        list-style: none;
-        display:row; /* Use flexbox for horizontal layout */
-        flex-direction: row; /* Arrange items in a row */
-        align-items:flex-start; /* Align items vertically */
-        gap: 15px; /* Add spacing between items */
-        color: black;
-        padding: 0; /* Remove default padding */
-        margin: 0; /* Remove default margin */
-    }
-
-    nav a {
-        color: #141212; /* White text for links */
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-    nav a:hover {
-        text-decoration: underline;
-    }
-
-    /* Buttons */
-    button {
-        background-color: #3498db;
-        color: #000000;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 16px;
-    }
-
-    button:hover {
-        background-color: #2980b9; /* Darker blue on hover */
-    }
-
-    /* Footer */
-    footer {
-        margin-top: 20px;
-        padding: 10px;
-        background-color: #8ab9e7; /* Dark blue footer */
-        color: #ffffff;
-        border-radius: 10px;
-        text-align: center;
-    }
-
-    /* Responsive design */
-    @media (max-width: 768px) {
-        .wrapper {
-            width: 95%;
-        }
-
-        nav ul {
-            flex-direction: column;
-            gap: 10px;
-        }
-    }
+    background-color: #333; /* Light blue theme */
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
+}
+
+/* Wrapper styling */
+
+.wrapper1 {
+    border-width: 300%;
+    width: 300%;
+    padding: 15px;
+    background-color: #1a5375; /* White background for content */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
+}
+
+.wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+/* Headings */
+
+h1 {
+    font-size: 400%;
+    color: #fbfbfb; 
+}
+h2, h3 {
+    color: #2c3e50; /* Dark blue for headings */
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 20px;
+    color: #34495e; /* Slightly darker text */
+}
+
+
+
+nav ul {
+    list-style: none;
+    display:row; /* Use flexbox for horizontal layout */
+    flex-direction: row; /* Arrange items in a row */
+    align-items:flex-start; /* Align items vertically */
+    gap: 15px; /* Add spacing between items */
+    color: black;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+nav a {
+    color: #141212; /* White text for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+button {
+    background-color: #3498db;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav
+{
+   position: fixed;
+   top: 0;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #8ab9e7; /* Dark blue footer */
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
 }
 
 /* Container for content */
@@ -143,14 +115,15 @@ body {
 }
 
 /* Headings */
-h1, h2, h3 {
-    color: #222;
+h2, h3 {
+    color:#ffffff;
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Paragraphs */
 p {
+    color: #ffffff  ;
     margin-bottom: 15px;
 }
 
@@ -211,4 +184,12 @@ text-align: center;
     margin-top: 20px;
     padding: left 50px;;
     align-content: center;
+
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background:#222; /* Dark blue line */
+    margin: 20px 0; /* Add vertical spacing around the line */
 }
