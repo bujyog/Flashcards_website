@@ -23,9 +23,9 @@ body {
 
 .wrapper1 {
     border-width: 300%;
-    width: 300%;
+
     padding: 15px;
-    background-color: #1a5375; /* White background for content */
+    background-color: #2d5a74; /* White background for content */
     border-radius: 5px;
     box-shadow: 0 4px 6px rgb(255, 255, 255);
 }
@@ -38,6 +38,7 @@ body {
 /* Headings */
 
 h1 {
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 400%;
     color: #fbfbfb; 
 }
