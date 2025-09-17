@@ -2,7 +2,6 @@
 body, h1, h2, h3, p, ul, ol, li, a {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* General body styling */
@@ -12,13 +11,14 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #000000;
+    background-color: #ffffff;
     /* Reset some default browser styles */
     body, h1, h2, h3, p, ul, ol, li, a {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        color: black;
     }
 
     /* General body styling */
@@ -26,8 +26,8 @@ body {
         font-family: 'Arial', sans-serif;
         font-size: 16px;
         line-height: 1.6;
-        color: #333;
-        background-color: #f0f8ff; /* Light blue theme */
+        color: #000000;
+        background-color: #ffffff; /* Light blue theme */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -39,33 +39,31 @@ body {
     .wrapper {
         max-width: 800px;
         width: 90%;
-        background-color: #3b5982; /* White background for content */
+        background-color: #75d1d8; /* White background for content */
         border-radius: 5px;
-        box-shadow: 0 4px 6px rgb(255, 255, 255);
-        padding: 20px;
+        box-shadow: 0 4px 6px rgb(33, 75, 77);
         text-align: center;
     }
 
     .wrapper1 {
         max-width: 800px;
         width: 90%;
-        background-color: #1a5375; /* White background for content */
+        background-color: #ffffff; /* White background for content */
         border-radius: 5px;
         box-shadow: 0 4px 6px rgb(255, 255, 255);
-        padding: 20px;
-        text-align: center;
+        align-self: left;
     }
 
     /* Headings */
     h1, h2, h3 {
-        color: #2c3e50; /* Dark blue for headings */
+        color: #000000; /* Dark blue for headings */
         margin-bottom: 15px;
     }
 
     /* Paragraphs */
     p {
         margin-bottom: 20px;
-        color: #34495e; /* Slightly darker text */
+        color: #000000; /* Slightly darker text */
     }
 
 
@@ -144,7 +142,7 @@ body {
 
 /* Headings */
 h1, h2, h3 {
-    color: #222;
+    color: #0f0f0f;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -158,6 +156,7 @@ p {
 a {
     color: #0f161c;
     text-decoration: none;
+    padding:auto ;
 }
 
 a:hover {
@@ -209,6 +208,37 @@ text-align: center;
 /* Index categories */
 .wrapper {
     margin-top: 20px;
-    padding: left 50px;;
+    padding: left 50px;
     align-content: center;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #2e2e2e;
+}
+
+a {
+    text-decoration: none;
+    
 }
