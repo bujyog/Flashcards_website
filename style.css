@@ -39,6 +39,7 @@ body {
 h1 {
     font-family:Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 400%;
+    letter-spacing: 2px;
     color: #fbfbfb; 
 }
 h2, h3 {
