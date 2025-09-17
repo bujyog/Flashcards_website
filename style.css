@@ -22,11 +22,10 @@ body {
 
 .wrapper1 {
     border-width: 300%;
-
     padding: 15px;
     background-color: #2d5a74; /* White background for content */
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgb(255, 255, 255);
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
 }
 
 .wrapper {
@@ -67,7 +66,7 @@ nav ul {
 }
 
 nav a {
-    color: #141212; /* White text for links */
+    color: #dadada; /* White text for links */
     text-decoration: none;
     font-weight: bold;
 }
