@@ -32,13 +32,21 @@ body {
     width: 100%;
     text-align: center;
 }
-
 /* Headings */
 
+@font-face {
+  font-family: 'lemon';
+  src: url('fonts\Lemon.otf') format('otf'),
+       url('fonts\Lemon.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1 {
-    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    font-family:'lemon',sans-serif;
     font-size: 400%;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    
     color: #fbfbfb; 
 }
 h2, h3 {
